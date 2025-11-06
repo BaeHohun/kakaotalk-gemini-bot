@@ -10,7 +10,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // Gemini API 설정
-const apiKey = process.env.gen-lang-client-0065008291
+const apiKey = process.env.API_KEY;
 ;
 if (!apiKey) {
   console.error('에러: API_KEY 환경 변수가 설정되지 않았습니다.');
